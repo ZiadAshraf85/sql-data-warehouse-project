@@ -65,7 +65,7 @@ BEGIN
 		TRUNCATE TABLE bronze.crm_sales_details;
 		PRINT '>> Inserting Data Into: bronze.crm_sales_details';
 		BULK INSERT bronze.crm_sales_details
-		FROM 'D:\data camp\data engineering\DWH project\sql-data-warehouse-project\datasets\source_crm.csv'
+		FROM 'D:\data camp\data engineering\DWH project\sql-data-warehouse-project\datasets\source_crm\sales_details.csv'
 		WITH (
 			FIRSTROW = 2,
 			FIELDTERMINATOR = ',',
@@ -139,3 +139,8 @@ BEGIN
 		PRINT '=========================================='
 	END CATCH
 END
+
+--EXEC bronze.load_bronze;
+
+
+--select count(*) from bronze.crm_cust_info -- If it has 18,493 row, then it is true. 
