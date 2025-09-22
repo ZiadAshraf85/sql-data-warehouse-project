@@ -100,5 +100,7 @@ Hi there! I'm **Ziad Ashraf Ibrahim**,I’m software instructor with 2+ years of
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-[![LinkedIn](linkedin.com/in/ziad-ashraf-34391824b)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ziad-ashraf-34391824b
+)
+
 
